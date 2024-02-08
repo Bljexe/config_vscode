@@ -14,47 +14,19 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "explorer.fileNesting.enabled": true,
-  "yaml.schemas": {
-    "file:///home/bryan/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
   "redhat.telemetry.enabled": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.accessibilitySupport": "off",
   "files.autoSave": "onFocusChange",
-  "editor.defaultFormatter": "Prisma.prisma",
-  // "editor.formatOnSave": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "terminal.integrated.env.windows": {},
-  "[python]": {
-    "editor.formatOnType": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.env.linux": {},
   "tabnine.experimentalAutoImports": true,
   "git.enableSmartCommit": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  
   "editor.minimap.enabled": false,
   "helium-icon-theme.folders.theme": "specific",
   "workbench.iconTheme": "symbols",
   "diffEditor.ignoreTrimWhitespace": false,
-
-  // =================== CONFIG: extensão material icon theme ===================
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#6272a4",
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
     "grpc": "pipe",
@@ -96,28 +68,53 @@
   "material-icon-theme.languages.associations": {
     "dotenv": "tune"
   },
-  "material-icon-theme.activeIconPack": "nest",
-  "material-icon-theme.folders.theme": "specific",
-  "material-icon-theme.folders.color": "#6272a4",
-  "[dockercompose]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "terminal.integrated.env.osx": {},
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "terminal.integrated.env": {
+    "linux": {},
+    "windows": {},
+    "osx": {}
   },
   "workbench.editor.centeredLayoutFixedWidth": true,
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "workbench.productIconTheme": "emoji-product-icons",
   "symbols.hidesExplorerArrows": false,
   "workbench.colorTheme": "One Dark Darker",
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
+  "git.openRepositoryInParentFolders": "never",
+  "console-ninja.featureSet": "Community",
   "terminal.integrated.fontFamily": "monospace",
-  
+  "vsicons.dontShowNewVersionMessage": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
